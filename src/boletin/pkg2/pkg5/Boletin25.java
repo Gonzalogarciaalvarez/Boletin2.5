@@ -18,10 +18,10 @@ public class Boletin25 {
      */
     public static void main(String[] args) {
 
-        int n;
-        int paso;
+        double n;//Metros
+        double paso;
         Scanner obx1 = new Scanner (System.in);
-        n = obx1.nextInt();
+        n = obx1.nextDouble();
         paso=n*1852;
         System.out.println(n+" millas son "+paso+" metros");
     }
